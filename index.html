@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f1f1f1">
+
+    <!-- Title -->
+    <title> Gowthamraj Network </title>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <meta name="description" content="Aptitude questions and answers with detailed explanations for your competitive examinations, placement interviews, and various entrance tests.">
+
+    <link rel="stylesheet" href="./_files/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./_files/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="./_files/css/main.minabc8.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-lg-5 col-md-5 col-6">
+                    <div class="header-left d-flex align-items-center">
+
+                        <div class="menu-toggle-btn" onclick="shownavbar()">
+                            <button aria-label="Menu Toggle" id="menu-toggle" class="main-btn">
+                                <i class="mdi mdi-menu"> </i>
+                            </button>
+                        </div>
+
+                        <div class="head-name">
+                            <a href="index.html"> GR Network</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-6">
+                    <div class="header-right d-flex align-items-center">
+                        <div class="header-search d-none d-sm-block" id="search-form-box">
+                            <form method="get" id="search-form" name="search form"
+                                action="https://www.google.co.in/search" target="_blank">
+                                <input type="hidden" name="sitesearch" value="www.indiabix.com">
+                                <button aria-label="Search Submit"><i class="mdi mdi-magnify mdi-24px"></i></button>
+                                <input name="as_q" id="txtSearchKey" class="search-box" type="text"
+                                    placeholder="Search">
+                            </form>
+                        </div>
+                        <button aria-label="Search" id="btnSearch" class="header-button d-block d-sm-none">
+                            <i class="mdi mdi-magnify "></i>
+                        </button>
+
+                        <button aria-label="Page Share" id="btnShare" class="header-button"><i
+                                class="mdi mdi-share"></i></button>
+                        <!--
+                        <button aria-label="Theme Toggle" id="btnTheme" class="header-button"><i
+                                class="mdi mdi-theme-light-dark mdi-rotate-315"></i></button> -->
+
+                        <a href="user/login/index.html" id="btnLogin" class="header-button"
+                            aria-label="Login to stay connected with IndiaBIX!"><i class="mdi mdi-login"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Side Navbar -->
+    <aside class="sidebar-nav-wrapper">
+
+        <p class="cross-symbol" onclick="closenavbar()"> <i class="fa fa-times" aria-hidden="true"></i> </p>
+
+        <div class="navbar-logo"> <img src="_files/img/companylogo-1.png" alt=""></div>
+
+        <nav class="sidebar-nav">
+            <ul>
+                <li class="nav-item"><a href="index.html"><span class="icon"><i class="mdi mdi-home"></i></span><span
+                            class="text">Home</span></a></li>
+
+                <li class="divider"></li>
+
+                <li class="nav-item"><a href="arithmetic aptitude.html"><span class="icon"><i
+                                class="mdi mdi-math-integral-box"></i></span><span class="text">Arithmetic
+                            Aptitude</span></a></li>
+
+                <li class="nav-item"><a href="Data Interpretation.html"><span class="icon"><i
+                                class="mdi mdi-chart-box"></i></span><span class="text">Data Interpretation</span></a>
+                </li>
+
+                <li class="nav-item"><a href="Verbal ability.html"><span class="icon"><i
+                                class="mdi mdi-text-box-check"></i></span><span class="text">Verbal Ability</span></a>
+                </li>
+
+                <li class="nav-item"><a href="Logical reasoning.html"><span class="icon"><i
+                                class="mdi mdi-chart-arc"></i></span><span class="text">Logical Reasoning</span></a>
+                </li>
+
+                <li class="nav-item"><a href="Verbal Reasoning.html"><span class="icon"><i
+                                class="mdi mdi-alphabetical-variant"></i></span><span class="text">Verbal
+                            Reasoning</span></a></li>
+
+                <li class="nav-item"><a href="Nonverbal Reasoning.html"><span class="icon"><i
+                                class="mdi mdi-collage"></i></span><span class="text">Nonverbal Reasoning</span></a>
+                </li>
+
+                <li class="divider"></li>
+
+                <li class="nav-item"><a href="online-test/categories/index.html"><span class="icon"><i
+                                class="mdi mdi-clock-outline"></i></span><span class="text">Online Tests</span></a></li>
+
+                <li class="nav-item"><a href="Current affairs.html"><span class="icon"><i
+                                class="mdi mdi-earth"></i></span><span class="text">Current Affairs</span></a></li>
+
+                <li class="nav-item"><a href="General Knowledge.html"><span class="icon"><i
+                                class="mdi mdi-head-lightbulb mdi-flip-h"></i></span><span class="text">General
+                            Knowledge</span></a></li>
+
+                <li class="divider"></li>
+
+                <li class="nav-item"><a href="hr-interview/questions-and-answers/index.html"><span class="icon"><i
+                                class="mdi mdi-tooltip-account"></i></span><span class="text">HR Interview</span></a>
+                </li>
+
+                <li class="nav-item"><a href="group-discussion/topics-with-answers/index.html"><span class="icon"><i
+                                class="mdi mdi-account-supervisor"></i></span><span class="text">Group
+                            Discussion</span></a></li>
+
+                <li class="nav-item"><a href="placement-papers/companies/index.html"><span class="icon"><i
+                                class="mdi mdi-checkbox-multiple-blank"></i></span><span class="text">Placement
+                            Papers</span></a></li>
+
+                <li class="nav-item"><a href="technical/interview-questions-and-answers/index.html"><span
+                            class="icon"><i class="mdi mdi-comment-account"></i></span><span class="text">Technical
+                            Interview</span></a></li>
+
+                <li class="divider"></li>
+
+                <li class="nav-item"><a href="mechanical-engineering/questions-and-answers/index.html"><span
+                            class="icon"><i class="mdi mdi-wrench"></i></span><span class="text">Mechanical
+                            Engineering</span></a></li>
+
+                <li class="nav-item"><a href="civil-engineering/questions-and-answers/index.html"><span class="icon"><i
+                                class="mdi mdi-city"></i></span><span class="text">Civil Engineering</span></a></li>
+
+                <li class="nav-item"><a
+                        href="electronics-and-communication-engineering/questions-and-answers/index.html"><span
+                            class="icon"><i class="mdi mdi-memory"></i></span><span class="text">ECE</span></a></li>
+
+                <li class="nav-item"><a href="electrical-engineering/questions-and-answers/index.html"><span
+                            class="icon"><i class="mdi mdi-power-plug"></i></span><span class="text">EEE</span></a></li>
+
+                <li class="nav-item"><a href="computer-science/questions-and-answers/index.html"><span class="icon"><i
+                                class="mdi mdi-laptop"></i></span><span class="text">CSE</span></a></li>
+
+                <li class="nav-item"><a href="engineering/index.html"><span class="icon"><i
+                                class="mdi mdi-more lni-rotate-180"></i></span><span class="text">Read
+                            more&#8230;</span></a></li>
+                <li class="divider"></li>
+
+                <li class="nav-item"><a href="c-programming/questions-and-answers/index.html"><span class="icon"><i
+                                class="mdi mdi-language-c"></i></span><span class="text">C Programming</span></a></li>
+
+                <li class="nav-item"><a href="cpp-programming/questions-and-answers/index.html"><span class="icon"><i
+                                class="mdi mdi-language-cpp"></i></span><span class="text">C++</span></a></li>
+
+                <li class="nav-item"><a href="c-sharp-programming/questions-and-answers/index.html"><span
+                            class="icon"><i class="mdi mdi-language-csharp"></i></span><span class="text">C#</span></a>
+                </li>
+
+                <li class="nav-item"><a href="java-programming/questions-and-answers/index.html"><span class="icon"><i
+                                class="mdi mdi-language-java"></i></span><span class="text">Java</span></a></li>
+
+                <li class="nav-item"><a href="database/questions-and-answers/index.html"><span class="icon"><i
+                                class="mdi mdi-database"></i></span><span class="text">Database</span></a></li>
+
+                <li class="nav-item"><a href="networking/questions-and-answers/index.html"><span class="icon"><i
+                                class="mdi mdi-lan"></i></span><span class="text">Networking</span></a></li>
+
+                <li class="divider"></li>
+
+                <li class="nav-item"><a href="microbiology/questions-and-answers/index.html"><span class="icon"><i
+                                class="mdi mdi-dna"></i></span><span class="text">Microbiology</span></a></li>
+
+                <li class="nav-item"><a href="biochemistry/questions-and-answers/index.html"><span class="icon"><i
+                                class="mdi mdi-checkbox-multiple-blank-circle"></i></span><span
+                            class="text">Biochemistry</span></a></li>
+
+                <li class="nav-item"><a href="biotechnology/questions-and-answers/index.html"><span class="icon"><i
+                                class="mdi mdi-circle-multiple-outline"></i></span><span
+                            class="text">Biotechnology</span></a></li>
+
+                <li class="nav-item"><a href="biochemical-engineering/questions-and-answers/index.html"><span
+                            class="icon"><i class="mdi mdi-chart-bubble"></i></span><span class="text">Biochemical
+                        </span></a></li>
+
+                <li class="divider"></li>
+
+                <li class="nav-item"><a href="puzzles/number-puzzles/index.html"><span class="icon"><i
+                                class="mdi mdi-checkerboard"></i></span><span class="text">Puzzles Quiz</span></a></li>
+
+                <li class="nav-item"><a href="puzzles/sudoku/index.html"><span class="icon"><i
+                                class="mdi mdi-grid"></i></span><span class="text">Sudoku</span></a></li>
+
+                <li class="divider"></li>
+
+                <li class="nav-item"><a href="contact-us.html"><span class="icon"><i
+                                class="mdi mdi-card-account-mail-outline"></i></span><span class="text">Contact
+                            Us</span></a></li>
+
+            </ul>
+        </nav>
+
+    </aside>
+
+    <main class="main-content">
+        <div class="content">
+            <h2 class="text-success">Percentage Problems</h2><br>
+            <p>Practice aptitude questions on percentages</p><br>
+
+            <!-- Question 1 -->
+            <div class="quiz">
+                <h4>Question 1:</h4>
+                <p>Two students appeared at an examination. One secured 9 marks more than the other, and his marks were
+                    56% of the total. What are their marks?</p>
+                <ul class="options">
+                    <li onclick="checkAnswer(this, false)">A) 39, 30</li>
+                    <li onclick="checkAnswer(this, false)">B) 41, 32</li>
+                    <li onclick="checkAnswer(this, true)">C) 42, 33</li>
+                    <li onclick="checkAnswer(this, false)">D) 43, 34</li>
+                </ul>
+                <div class="explanation">
+                    <strong>Explanation:</strong><br><br>
+                    Let their marks be **(x + 9)** and **x**.<br><br>
+                    Since:<br>
+                    <b>(x + 9) = (56/100) × (x + 9 + x)</b><br><br>
+                    Multiplying both sides by **100**:<br>
+                    <b>25(x + 9) = 14(2x + 9)</b><br><br>
+                    Expanding:<br>
+                    <b>25x + 225 = 28x + 126</b><br>
+                    <b>3x = 99</b><br>
+                    <b>x = 33</b><br><br>
+                    So, their marks are **42 and 33**.<br>
+                    <b>Final Answer:</b> 42, 33.
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="quiz">
+                <h4>Question 2:</h4>
+                <p>If the price of a product is increased by 25%, by what percent should the consumption be reduced to
+                    maintain the same expense?</p>
+                <ul class="options">
+                    <li onclick="checkAnswer(this, false)">A) 15%</li>
+                    <li onclick="checkAnswer(this, true)">B) 20%</li>
+                    <li onclick="checkAnswer(this, false)">C) 25%</li>
+                    <li onclick="checkAnswer(this, false)">D) 30%</li>
+                </ul>
+                <div class="explanation">
+                    <strong>Explanation:</strong><br><br>
+                    If the price increases by **R%**, the reduction required in consumption is:<br><br>
+                    <b>(R / (100 + R)) × 100</b><br><br>
+                    Substituting **R = 25**:<br>
+                    <b>(25 / 125) × 100 = 20%</b><br><br>
+                    <b>Final Answer:</b> 20%.
+                </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="quiz">
+                <h4>Question 3:</h4>
+                <p>If 45% of a number is 315, what is the number?</p>
+                <ul class="options">
+                    <li onclick="checkAnswer(this, false)">A) 600</li>
+                    <li onclick="checkAnswer(this, true)">B) 700</li>
+                    <li onclick="checkAnswer(this, false)">C) 800</li>
+                    <li onclick="checkAnswer(this, false)">D) 900</li>
+                </ul>
+                <div class="explanation">
+                    <strong>Explanation:</strong><br><br>
+                    Let the number be **X**.<br><br>
+                    <b>45% of X = 315</b><br><br>
+                    Solving for X:<br>
+                    <b>X = (315 × 100) / 45</b><br>
+                    <b>X = 700</b><br><br>
+                    <b>Final Answer:</b> 700.
+                </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="quiz">
+                <h4>Question 4:</h4>
+                <p>What percentage of 200 is 80?</p>
+                <ul class="options">
+                    <li onclick="checkAnswer(this, false)">A) 30%</li>
+                    <li onclick="checkAnswer(this, false)">B) 35%</li>
+                    <li onclick="checkAnswer(this, true)">C) 40%</li>
+                    <li onclick="checkAnswer(this, false)">D) 50%</li>
+                </ul>
+                <div class="explanation">
+                    <strong>Explanation:</strong><br><br>
+                    Using the percentage formula:<br>
+                    <b>(80 / 200) × 100</b><br><br>
+                    <b>= 40%</b><br><br>
+                    <b>Final Answer:</b> 40%.
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Check Answer
+        function checkAnswer(element, isCorrect) {
+            let explanation = element.parentElement.nextElementSibling;
+
+            if (isCorrect) {
+                element.style.background = "#d4edda";
+                element.style.border = "1px solid #155724";
+            } else {
+                element.style.background = "#f8d7da";
+                element.style.border = "1px solid #721c24";
+                explanation.style.display = "block";
+            }
+        }
+
+        //select sidenavbar
+        var sidenavbar = document.querySelector(".sidebar-nav-wrapper")
+
+        function shownavbar() {
+            sidenavbar.style.left = "0"
+        }
+        function closenavbar() {
+            sidenavbar.style.left = "-90%"
+        }
+    </script>
+    
+</body>
+
+</html>
